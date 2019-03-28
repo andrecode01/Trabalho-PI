@@ -1,0 +1,200 @@
+*{margin: 0; padding: 0;}
+
+body{
+	font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+	background: linear-gradient(90deg, #3f51b5, #00bcd4, #02aa72);
+}
+
+
+.imagem-teto{
+	text-align: center;
+	margin-bottom: 10px;
+}
+	.imagem-teto img{
+		border-radius: 20px;
+		width: 300px;
+		box-shadow: 5px 5px rgba(0, 0, 0, 0.452);
+	}
+
+.barra-menu{
+	background: linear-gradient(90deg,#d4003586, #b5783f80);
+	box-shadow: 1px 5px rgba(0, 0, 0, 0.233);
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.menu li{
+	font-size: 1.3em;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 5px 10px;
+	display: block;
+}
+
+.menu li a:hover{
+	color: black;
+	background: white;
+	box-shadow: 5px 10px rgba(0, 0, 0, 0.452);
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	float: left;
+	background: linear-gradient(90deg,#d4003586, #b5783f80);
+	border-top: none;
+	border-radius: 10px;
+}
+
+.menu li ul li{
+	margin: auto;
+	padding: 5px;
+	list-style: none;
+	font-size: 1em;
+}
+
+.menu li:hover ul{
+	display: block;
+
+}
+
+.fundo{
+ background: linear-gradient(90deg,#d4003586, #b5783f80); 
+	text-align: center;
+	margin: 20px 5px;
+	margin-bottom: 2px;
+	padding: 60px 0;
+	border-radius: 10px;
+}
+
+	.fundo .listas{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin: 50px 0;
+	}
+
+		.fundo .listas .ul{
+			margin: auto;
+			padding: auto;
+			color: white;
+			width: 20%;
+		}
+
+		.fundo .listas .ol{
+			margin: auto;
+			padding: auto;
+			color: white;
+			width: 20%;
+		}
+
+	.fundo .tabela{
+		display: flex;
+		justify-content: center;
+		margin: 50px 0;
+	}
+
+		.fundo .tabela .tab{
+			color: white;
+		}
+
+
+		.fundo .tabela .tab tr th, .fundo .tabela .tab tr td strong{
+			background: rgba(170, 170, 170, 0.616);
+			border: 1px solid #fff;
+			margin: 5px;
+		}
+		.fundo .tabela .tab tr .i{border: none; background: none;}
+
+
+.rodape{
+	background: linear-gradient(90deg, #3b061386, #000, #27170880);
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+	.rodape p{
+		margin: 5px 0;
+		font-size: 1em;
+	}
+
+	.rodape img{
+		width: 64px;
+	}
+
+	.rodape .social img{
+		width: 32px;
+		margin: 5px 10px;
+	}
+
+	.rodape .politica{
+		display: flex;
+		justify-content: center;
+	}
+		
+		.rodape .politica a:link{
+			text-decoration: none;
+		}
+
+		.rodape .politica p{
+			margin: 5px 20px;
+			color: lightskyblue;
+		}
+
+		
+
+
+/* JQUERY STYLE (FONTE: JQuery UI)*/
+
+.demoHeaders {
+	color: white;
+	margin-top: 2em;
+	margin: 10px;
+}
+#dialog-link {
+	margin: 10px;
+	padding: .4em 1em .4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+#dialog-link span.ui-icon {
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+#icons {
+	margin: 10px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+
+}
+#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	list-style: none;
+}
+#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+	position: absolute;
+}
+select {
+	width: 200px;
+}
